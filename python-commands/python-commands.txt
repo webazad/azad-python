@@ -1,0 +1,8 @@
+python --version
+pip --version
+pip install virtualenvwrapper-win
+
+from the project folder please...
+mkvirtuallenv py1
+pip install --upgrade --foce virtualenvwrapper-win (if (mkvirtuallenv py1) does not work) 
+django-admin startproject azad
