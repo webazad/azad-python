@@ -2,7 +2,13 @@ python --version
 pip --version
 pip install virtualenvwrapper-win
 
-from the project folder please...
+from the directory folder please...
 mkvirtuallenv py1
 pip install --upgrade --foce virtualenvwrapper-win (if (mkvirtuallenv py1) does not work) 
 django-admin startproject azad
+
+from the project folder please...
+python manage.py runserver
+pip install mysqlclient
+python manage.py migrate
+python manage.py createsuperuser --username=azad --email=webdevazad@gmail.com
